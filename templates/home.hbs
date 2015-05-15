@@ -1,0 +1,12 @@
+<div class="container">
+	<nav class="nav bar navbar-default" role="navigation">
+		<ul class="nav navbar-nav">
+            {{#each item in nav}}           
+               <li>{{#link-to '{{item}}'}} {{item}} {{/link-to}}</li>
+            {{/each}}
+		</ul>
+	</nav>
+
+<h1>Home</h1>
+
+</div>

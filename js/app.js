@@ -1,11 +1,10 @@
-App = Ember.Application.create();
+Blogger = Ember.Application.create();
 
-App.Router.map(function() {
-  // put your routes here
-});
 
-App.IndexRoute = Ember.Route.extend({
-  model: function() {
-    return ['red', 'yellow', 'blue'];
+Blogger.IndexRoute = Ember.Route.extend({
+  nav: function() {
+    return ['post', 'about', 'contact'];
   }
+
+
 });
